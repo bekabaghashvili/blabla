@@ -1,0 +1,68 @@
+p{
+    color: #1E90FF;
+    font-size: 75px;
+    text-align: center;
+
+    /*აუცილებლად გავითვალისწინოთ ორთოგრაფია, წერტილი-მძიმე უნდა*/
+}
+
+.text{
+	color: 	#FFE4C4;
+	font-size: 50px;
+	/*კლასებთან დაკავშირება ხდება წერტილით და კლასის სახელით*/
+	border: 3px double;
+	/*საზღვარი აქვს ტექსტს და შეგვიძლია ვმართოთ მისი დაშორება გარე და შიგნითა სივრცეზე*/
+	margin: 50px 70px;
+	padding: 25px 70px;
+	padding-left: 500px;
+	/*display: inline-block;*/
+	/*text-align: right;*/
+}
+
+.text1{
+	color: 	rgb(220, 20, 60);
+	font-size: 50px;
+	border: 3px ridge;
+	/*display: inline-block;*/
+	text-align: center;
+	/*ტექსტის გაცენტვრა*/
+}
+
+#writer{
+	background-color: #F0FFFF;
+	/*აიდის ორთოგრაფია css ში ასეთია*/
+}
+
+.image{
+	width: 350px;
+	/*height: 650px;*/
+	
+    /*იმისათვის რომ გავაკონტროლოთ სურათის სიმაღლე და სიგანე, 
+უნდა მივუთითოთ ან width ან height*/
+}
+
+.image1 {
+	width: 250px;
+}
+.chinapic{
+	width: 100px;
+	width: 500px;
+}
+.bg1{
+	background-color: #ffb3d9;
+}
+a{
+	text-decoration: none!important;
+	/*შემთხვევა როცა გვინდა ბუტსტრაფის მოყოლილი ქვედა ხაზი მოვაშოროთ*/
+}
+.nav{
+/*	display: inline-block;*/
+	/*ეს ნავ კლასი მინიჭებულია il ებზე ნავიგაციაში და განსაზღვრავს მათ გვერდი-გვერდ მდგომარეობას*/
+}
+.logo{
+	display: inline-block;
+}
+.logo1{
+	width: 100px;
+	margin-left: 50px;
+}

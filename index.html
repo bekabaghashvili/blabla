@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+    	<!-- ჰედში ვწერთ მეტათაგებს -->
+    	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    	<title>ნიკოლას მაჩაბელი</title>
+     	<!-- ტაიტლში რასაც ჩავწერთ გამოჩნდება ბრაუზერის ტაბზე -->
+
+     	<!-- მეტათაგებში პირველი უნდა იყოს ბუტსტრაფები და შემდეგ style.css რო მოხდეს სწორად დაკავშირება  ეს კი არის რელაციური დაკავშირება ბუტსტრაფთან-->
+
+     	<link rel="stylesheet" type="text/css" href="css/bootstrap-reboot.css">
+     	<!-- ეს ანულებს -->
+     	<link rel="stylesheet" type="text/css" href="css/bootstrap-grid.css">
+     	<!-- ეს კი კოლონებს ქმნის, გრაფიკულ ბადეს -->
+     	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+     	<!-- ეს კი პირდაპირ ბუტსტრაფის ფერებს და ზომებს იღებს -->
+
+     	<!-- ეს კი არის აბსოლუტური მისამართით დაკავშირება ბუტსტრატფთან, აქ ვაკოპირებთ CSS - CDN ს და არ დაგვავიწყდეს ბადი თაგის დახურვამდე ჯავასკრიპტის სკრიპტი უნდა ჩავსვათ -->
+     	<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"> -->
+
+     <!-- 	<style>
+     		p{
+     			color: red;
+     			font-size: 75px;
+     		}
+     	</style> -->
+
+     	<!-- პირველი ვარიანტი css-ის მუშაობის -->
+
+     	<link rel="stylesheet" type="text/css" href="css/style.css">
+     	<!-- მეორე და ყველაზე პოპ ვარიანტი css-ის მუშაობის -->
+  
+    
+    </head>
+
+
+
+
+
+	<body>
+	 	<!-- ბადიში ვაწყობთ მთლიანად საიტს -->
+
+	 	<p> სალამი მეგობარო </p>
+	 	<!-- პარაგრაფის P თეგი - მნიშვნელობის მქონე თეგი -->
+
+<!-- 	 <header>
+
+	 	<div class="logo">
+	 		<img class="logo1" src="pics/png.png">
+
+	 	</div> -->
+
+
+	 	<!-- <nav class="logo">
+	 		!-- ნავიგაციის ტეგი რომელიც იწერება ბადიში თავში და საჭიროებს ul/ან ol კლასებს -->
+	 <!-- 		<ul> -->
+	 			<!-- ul კლასი თავის მხრივ საჭიროებს li კლასებს სადაც გაწერილი იქნება უკვე ნავიგაციის სახელები -->
+	 			<!-- <li class="nav">
+	 				<a href="#"> Home </a> -->
+	 				<!-- ა ჰრეფით რომელიც უდრის საიტს - პირდაპირ გადაგვამისამართებს ლინკზე -->
+	 			<!-- </li>
+	 			<li class="nav">
+	 				<a href="https://1tv.ge/elit_author/nikoloz-machabeli/">
+	 				novels </a>
+	 			</li>
+	 			<li class="nav">
+	 				<a href="https://saba.com.ge/books/details/15661/%E1%83%A9%E1%83%90%E1%83%98%E1%83%9C%E1%83%90-%E1%83%99%E1%83%9D%E1%83%9C%E1%83%A2%E1%83%A0%E1%83%90%E1%83%A1%E1%83%A2%E1%83%94%E1%83%91%E1%83%98%E1%83%93%E1%83%90%E1%83%9C" target="_blank"> Link </a> -->
+	 				<!-- იმ შემთხვევაში თუ გვინდა სხვა ტაბში გახსას ლინკი უნდა მივუთითო დახურული ლინკის მერე target="_blank" -->
+	 	<!-- 		</li>
+	 		</ul>
+	 	</nav> -->
+<!-- 
+	 </header> -->
+
+	 <header>
+					 	<!-- Just an image -->
+				<nav class="nav justify-content-center navbar navbar-light bg-light">
+				  <a class="navbar-brand" href="#">
+				    <img src="pics/png.png" width="100" alt="">
+				  </a>
+				<ul class="nav justify-content-center">
+				  <li class="nav-item">
+				    <a class="nav-link active" href="#">Active</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Link</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" href="#">Link</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link disabled" href="#">Disabled</a>
+				  </li>
+				</ul>
+				</nav>
+	 </header>
+
+
+
+
+
+
+	 	<section id="writer">
+	 		<!-- სექციებად დაყოფა საიტის კარგი აზრია, ეს არის ერთგვარი კატეგორია/რუბრიკა -->
+	 		<!-- id არის სექციებისთვის კლასის გაწერა, უფრო ბექისთვის გამოგვადგებაო -->
+	 		<div>
+	 			<p class="text"> კეთილი იყოს შენი მობრძანება </p>
+	 		</div>
+	 		<!-- დივებად დაყოფა კი უკვე მინი-ბლოკებად დაყოფაა, სადაც გვხვდება ტექსტიც და სურათიც -->
+	 		<!-- მივაქციოთ ყურადღება კლასების გაწერას და ორთოგრაფიას, კლასი შეგვიძლია მივანიჭოთ როგორც P თეგს, ასევე div თეგს -->
+
+	 		<div>
+	 			<p class="text1"> ნიკოლასის თავგადასავლებში </p>
+	 		</div>
+	 		
+
+	 		<img class="image" src="https://cdn.ambebi.ge/media/__thumbs__/images/2018/reklama/nikolas_2019-08-01_pBhmu8F089.webp" alt="ნიკოლას მაჩაბელი">
+	 		<!-- ეს არის აბსოლუტური მისამართით შემოტანა სურათის -->
+
+	 		<img class="image1" src="pics/bio.jpg" alt="ჩაინა კონტრასტებიდან ქავერი">
+	 		<!-- ეს კი არის რელაციური მისამართით შემოტანა სურათის -->
+	 		<!-- ორივე სურათს გაწერილი აქვს კლასი, რათა მოხდეს მათი ზომაში გაკონტროლება -->
+
+
+
+
+
+	 	</section>
+
+	 	<section>
+	 		<!-- ახალი სექცია გაიხსნა ჩვეულებრივად -->
+	 		<div class="container">
+	 			<!-- კონტეინერი ეს არის გაცენტრილი -->
+	 			<div class="row">
+	 				<!-- როუ კლასი გვჭირდება როცა თანაბარ კოლონებს ვაკეთებთ -->
+	 				<div class="col-lg-4 col-md-6 col-sm-12">
+	 					<!-- რესპონსივი რომ იყოს და სხვადასხვა დივაისმა კარგად აღიქვას სურათი საჭიროა გაწერა col-lg/col-md/col-sm -->
+	 					ვცდით სამ კოლონიან კონტეინერს
+	 					<img class="chinapic" src="pics/china.jpg">
+	 				</div>
+	 				<div class="col-lg-4 col-md-6 col-sm-12">
+	 					იმედია გამოვა
+	 					<img class="chinapic" src="pics/china.jpg">
+	 				</div>
+	 				<div class="col-lg-4 col-md-6 col-sm-12">
+	 					ბუტსტრაფის ფერებითაც
+	 					<img class="chinapic" src="pics/china.jpg">
+	 				</div>
+	 				<!-- ზუსტად იმდენი col- კლასი უნდა ჩავწეროთ რამდენი კოლონაც გვინდა კონტეინერში, ფორმულა კი ასეთია 12:6, 12:4, 12:3, და ა.შ. -->
+	 			</div>
+	 		</div>
+	 	</section>
+
+	 	<section>
+	 		<div class="container-fluid bg1">
+	 			<!-- ეს კონტეინერი არის ბოლომდე გასული -->
+	 			<div class="row">
+	 				<div class="col-2">
+	 					ახლა კი 6 კოლონა უნდა მივიღოთ
+	 				</div>
+	 				<div class="col-2 bg-warning">
+	 					დიახ
+	 				</div>
+	 				<div class="col-2">
+	 					უნდა
+	 				</div>
+	 				<div class="col-2">
+	 					მივიღოთ
+	 				</div>
+	 				<div class="col-2">
+	 					აბა
+	 				</div>
+	 				<div class="col-2">
+	 					აიტ!
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</section>
+
+	<!-- 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
+		<!-- ეს არის აბსოლუტური მისამართით შემოტანილი ბუტსტრაფის აუცილებელი ჯავასკრიპტ კომპონენტი -->
+
+
+	</body>
+
+</html>
